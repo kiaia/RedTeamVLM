@@ -78,4 +78,4 @@ for i in tqdm(range(0,100)):
 
     image.save(f'./RedTeamingVLM/data/Harmful/img/{i}.jpg')
     with open('./RedTeamingVLM/data/Harmful/misleading.jsonl', 'a') as f:
-        f.write(json.dumps(json_record) + '\n')
+        f.write(json.dumps(json_record) + '\n')ls
